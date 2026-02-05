@@ -131,8 +131,7 @@ Sistema de clearing farmacéutico para Chile.
 
 ## 📞 Contacto
 
-- Manuel Astaburuaga (Tech Lead)
-- Victor Pucci (Product Owner)
+- Equipo multidisciplinario disponible para consultas
 ```
 
 ### 2. Usar Diagramas Mermaid (Nativo en GitHub)
@@ -422,5 +421,4 @@ He creado un template completo en el siguiente archivo. Puedes copiarlo directam
 
 ---
 
-**Creado por:** Manuel Astaburuaga  
 **Fecha:** Enero 2026

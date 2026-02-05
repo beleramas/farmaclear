@@ -20,10 +20,10 @@
 ### Slide 2: ¿Quiénes Somos?
 **Contenido:**
 - **Farmaclear** - Clearing farmacéutico para Chile
-- **Equipo:**
-  - Manuel Astaburuaga - Tecnología (Tech Lead)
-  - Victor Pucci - Estrategia Negocio (Product Owner)
-  - Daniel Horán - Advisor Industria Farma
+- **Equipo multidisciplinario** con expertise en:
+  - Tecnología y desarrollo de software
+  - Estrategia de negocio y mercado farmacéutico
+  - Industria farmacéutica chilena
 - **Modelo:** Inspirado en sistemas exitosos de Argentina (Farmalink/Presefar)
 
 **Visual:** Logo/equipo, mapa conceptual
@@ -146,14 +146,15 @@
 
 **✅ Incluye:**
 - APIs REST completas
-- Validación de transacciones GES (hard-coded)
-- Conciliación automática (simulada)
+- Validación de transacciones GES
+- Conciliación automática
 - Dashboards por actor (Farmacia, Isapre, Laboratorio)
 - Integración blockchain básica
 - Sistema de notificaciones
+- Integración con sistemas externos reales (farmacias, isapres, laboratorios)
 
 **❌ No incluye (MVP):**
-- Integración con sistemas externos reales
+- Procesamiento de pagos bancarios
 - Procesamiento de pagos bancarios
 - Reportes avanzados
 - Mobile apps
@@ -313,8 +314,8 @@
 - Contacto directo para dudas urgentes
 
 **Contacto:**
-- Manuel Astaburuaga (Tech Lead)
-- Victor Pucci (Product Owner)
+- Equipo Farmaclear disponible para consultas
+- Usar Issues en GitHub para preguntas técnicas
 
 **Visual:** Información de contacto
 
@@ -439,6 +440,5 @@ A: Fase 2 con integraciones reales, luego escalamiento y auditoría para producc
 
 ---
 
-**Documento preparado por:** Manuel Astaburuaga  
 **Fecha:** Enero 2026  
 **Versión:** 1.0

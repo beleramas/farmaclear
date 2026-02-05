@@ -77,7 +77,7 @@ Semana 9-10: Documentación y Deployment
 - ✅ API de Transacciones (CRUD completo)
 - ✅ Servicio de Validación
   - Validación de prestaciones GES
-  - Validación de elegibilidad (simulada)
+  - Validación de elegibilidad con sistemas externos
   - Validación de montos
 - ✅ Servicio de Conciliación
   - Algoritmo de matching
@@ -299,9 +299,9 @@ Semana 9-10: Documentación y Deployment
 - 1 QA Engineer (part-time)
 
 ### Equipo Farmaclear
-- 1 Tech Lead (Manuel Astaburuaga)
-- 1 Product Owner (Victor Pucci)
-- 1 Advisor Farma (Daniel Horán)
+- 1 Tech Lead
+- 1 Product Owner
+- 1 Advisor Farma
 
 ---
 
@@ -314,6 +314,5 @@ Semana 9-10: Documentación y Deployment
 
 ---
 
-**Documento preparado por:** Manuel Astaburuaga  
 **Fecha:** Enero 2026  
 **Versión:** 1.0

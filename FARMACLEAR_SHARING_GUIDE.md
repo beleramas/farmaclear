@@ -256,8 +256,7 @@ Usar GitHub Issues para preguntas técnicas.
 
 ## 📞 Contacto
 
-- Manuel Astaburuaga (Tech Lead)
-- Victor Pucci (Product Owner)
+- Equipo multidisciplinario disponible para consultas
 ```
 
 ### Paso 3: Invitar al Repositorio
@@ -372,8 +371,7 @@ Pueden usar [GitHub Issues / Notion Comments] para cualquier
 pregunta técnica.
 
 📞 Contacto:
-- Manuel Astaburuaga (Tech Lead) - [email]
-- Victor Pucci (Product Owner) - [email]
+- Equipo Farmaclear - Usar Issues en GitHub para consultas
 
 Esperamos su cotización detallada.
 
@@ -431,5 +429,4 @@ git push -u origin main
 
 ---
 
-**Creado por:** Manuel Astaburuaga  
 **Fecha:** Enero 2026

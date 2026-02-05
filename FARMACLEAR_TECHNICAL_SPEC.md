@@ -12,10 +12,11 @@
 
 ### 1.1 Objetivo
 Desarrollar un MVP funcional del sistema de clearing farmacéutico que permita:
-- Validar transacciones GES con reglas hard-coded
+- Validar transacciones GES
 - Registrar transacciones en blockchain
 - Visualizar transacciones en dashboard básico
-- Demostrar concepto de conciliación (simulado)
+- Conciliación automática con sistemas externos reales
+- Integración con sistemas de farmacias, isapres y laboratorios
 
 ### 1.2 Entregables
 
@@ -25,6 +26,7 @@ Desarrollar un MVP funcional del sistema de clearing farmacéutico que permita:
 - ✅ Integración con blockchain BFT (3 nodos)
 - ✅ Base de datos PostgreSQL
 - ✅ Sistema de notificaciones básico
+- ✅ Integración con sistemas externos reales (APIs de farmacias, isapres, laboratorios)
 
 #### 1.2.2 Frontend
 - ✅ Dashboard para Farmacias
@@ -37,12 +39,18 @@ Desarrollar un MVP funcional del sistema de clearing farmacéutico que permita:
 - ✅ Configuración de deployment (Docker)
 - ✅ Documentación técnica
 
+#### 1.2.4 Integraciones Externas
+- ✅ Integración con sistemas de farmacias (APIs REST/SOAP)
+- ✅ Integración con sistemas de Isapres (APIs/Web Services)
+- ✅ Integración con sistemas de Fonasa (APIs/Web Services)
+- ✅ Integración con sistemas de laboratorios (APIs)
+- ✅ Adaptadores para diferentes formatos de datos
+- ✅ Manejo de errores y reintentos
+
 ### 1.3 Fuera de Alcance (MVP Fase 1)
-- ❌ Integración con sistemas externos reales
 - ❌ Procesamiento de pagos bancarios
 - ❌ Reportes avanzados
 - ❌ Mobile apps
-- ❌ Integración con sistemas legacy
 
 ---
 
@@ -65,8 +73,8 @@ Desarrollar un MVP funcional del sistema de clearing farmacéutico que permita:
   - Hash de blockchain
   - Estado de validación
 - **Validaciones:**
-  - Prestación GES válida (hard-coded)
-  - Monto descuento correcto (hard-coded)
+  - Prestación GES válida (validación con sistemas externos)
+  - Monto descuento correcto (validación con sistemas externos)
   - RUT válido
 
 **RF-002: Consultar Transacción**
@@ -88,16 +96,16 @@ Desarrollar un MVP funcional del sistema de clearing farmacéutico que permita:
 
 **RF-004: Validar Prestación GES**
 - **Descripción:** Validar que una prestación GES es válida y el descuento es correcto
-- **Reglas hard-coded:**
-  - Lista de códigos GES válidos
-  - Porcentajes de descuento por código
-  - Montos máximos de descuento
+- **Validación:**
+  - Consulta a sistemas externos de Isapres/Fonasa
+  - Verificación de códigos GES válidos
+  - Validación de porcentajes y montos de descuento
 
 **RF-005: Validar Elegibilidad**
 - **Descripción:** Validar que el paciente es elegible para descuento GES
-- **Reglas hard-coded:**
+- **Validación:**
   - Validación de RUT
-  - Simulación de elegibilidad
+  - Consulta a sistemas de Isapres/Fonasa para verificar elegibilidad
 
 ### 2.3 Conciliación
 
@@ -345,7 +353,7 @@ CREATE TABLE credit_notes (
     created_at TIMESTAMP DEFAULT NOW()
 );
 
--- Reglas de Negocio (hard-coded para MVP)
+-- Reglas de Negocio (configurables, integradas con sistemas externos)
 CREATE TABLE business_rules (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     tipo_prestacion VARCHAR(50) NOT NULL,
@@ -529,7 +537,7 @@ interface GenerateSettlementRequest {
 ### 9.1 Funcionales
 - ✅ Todas las APIs funcionan correctamente
 - ✅ Validación de transacciones GES funciona
-- ✅ Conciliación automática funciona (simulada)
+- ✅ Conciliación automática funciona con sistemas externos reales
 - ✅ Dashboards muestran datos correctos
 - ✅ Blockchain registra transacciones
 
@@ -560,6 +568,5 @@ interface GenerateSettlementRequest {
 
 ---
 
-**Documento preparado por:** Manuel Astaburuaga  
 **Fecha:** Enero 2026  
 **Versión:** 1.0

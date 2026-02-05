@@ -26,7 +26,7 @@
 
 Desarrollar un sistema de clearing farmacéutico que permita:
 
-- ✅ **Validar** transacciones GES (hard-coded para MVP)
+- ✅ **Validar** transacciones GES
 - 🔄 **Conciliar** descuentos entre actores automáticamente
 - 📅 **Liquidar** pagos de forma estandarizada
 - ☑ **Auditar** y trazar todas las transacciones en blockchain
@@ -91,14 +91,14 @@ graph TD
 
 ### Incluye:
 - ✅ APIs REST completas
-- ✅ Validación de transacciones GES (hard-coded)
-- ✅ Conciliación automática (simulada)
+- ✅ Validación de transacciones GES
+- ✅ Conciliación automática
 - ✅ Dashboards por actor
 - ✅ Integración blockchain básica
 - ✅ Sistema de notificaciones básico
+- ✅ Integración con sistemas externos reales (farmacias, isapres, laboratorios)
 
 ### No incluye:
-- ❌ Integración con sistemas externos reales
 - ❌ Procesamiento de pagos bancarios
 - ❌ Reportes avanzados
 - ❌ Mobile apps
@@ -107,10 +107,7 @@ graph TD
 
 ## 📞 Contacto
 
-**Equipo Farmaclear:**
-- **Manuel Astaburuaga** - Tecnología (Tech Lead)
-- **Victor Pucci** - Estrategia Negocio (Product Owner)
-- **Daniel Horán** - Advisor Industria Farma
+Para consultas sobre el proyecto, usar Issues en el repositorio o contactar al equipo de Farmaclear.
 
 ---
 
@@ -161,5 +158,4 @@ Proyecto privado - Todos los derechos reservados
 ---
 
 **Versión:** 1.0  
-**Última actualización:** Enero 2026  
-**Preparado por:** Manuel Astaburuaga
+**Última actualización:** Enero 2026

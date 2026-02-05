@@ -249,5 +249,4 @@ Una vez configurado Notion:
 
 ---
 
-**Creado por:** Manuel Astaburuaga  
 **Fecha:** Enero 2026

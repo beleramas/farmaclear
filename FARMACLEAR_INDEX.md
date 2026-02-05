@@ -146,14 +146,14 @@ farmaclear-platform/
 ### Alcance MVP Fase 1
 **Incluye:**
 - ✅ APIs REST completas
-- ✅ Validación de transacciones GES (hard-coded)
-- ✅ Conciliación automática (simulada)
+- ✅ Validación de transacciones GES
+- ✅ Conciliación automática
 - ✅ Dashboards por actor
 - ✅ Integración blockchain básica
 - ✅ Sistema de notificaciones básico
+- ✅ Integración con sistemas externos reales (farmacias, isapres, laboratorios)
 
 **No incluye:**
-- ❌ Integración con sistemas externos reales
 - ❌ Procesamiento de pagos bancarios
 - ❌ Reportes avanzados
 - ❌ Mobile apps
@@ -176,10 +176,7 @@ farmaclear-platform/
 
 ## 📞 Contacto
 
-**Equipo Farmaclear:**
-- **Manuel Astaburuaga** - Tecnología (Tech Lead)
-- **Victor Pucci** - Estrategia Negocio (Product Owner)
-- **Daniel Horán** - Advisor Industria Farma
+Para consultas sobre el proyecto, usar Issues en el repositorio o contactar al equipo de Farmaclear.
 
 ---
 
@@ -213,6 +210,5 @@ farmaclear-platform/
 
 ---
 
-**Documento preparado por:** Manuel Astaburuaga  
 **Fecha:** Enero 2026  
 **Versión:** 1.0

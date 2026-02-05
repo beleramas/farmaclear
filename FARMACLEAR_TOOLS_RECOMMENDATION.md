@@ -396,5 +396,4 @@ graph TD
 
 ---
 
-**Creado por:** Manuel Astaburuaga  
 **Fecha:** Enero 2026

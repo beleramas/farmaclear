@@ -568,27 +568,27 @@ POST /webhooks/settlement-generated
 
 ### 7.1 Fase 1: MVP Controlado (Q1-Q2 2026)
 
-**Objetivo:** Sistema funcional con datos hard-coded para validar concepto
+**Objetivo:** Sistema funcional con integraciones reales para validar concepto
 
 **Entregables:**
 1. Arquitectura base
 2. APIs básicas
-3. Validación de transacciones GES (hard-coded)
+3. Validación de transacciones GES con integraciones reales
 4. Dashboard básico por actor
 5. Blockchain básico (3 nodos BFT)
 
 **Timeline:** 8-10 semanas
 
-### 7.2 Fase 2: MVP con Stakeholders Reales (Q2-Q3 2026)
+### 7.2 Fase 2: Escalamiento y Optimización (Q2-Q3 2026)
 
-**Objetivo:** Integración con actores reales (1 farmacia, 1 isapre)
+**Objetivo:** Escalar integraciones y optimizar sistema
 
 **Entregables:**
-1. Integración con sistema de farmacia piloto
-2. Integración con isapre piloto
-3. Conciliación automática funcional
-4. Generación de liquidaciones
-5. Notificaciones en tiempo real
+1. Integración con más farmacias e isapres
+2. Optimización de performance
+3. Mejoras de UX basadas en feedback
+4. Reportes avanzados
+5. Preparación para auditoría
 
 **Timeline:** 10-12 semanas
 
@@ -686,6 +686,5 @@ POST /webhooks/settlement-generated
 
 ---
 
-**Documento preparado por:** Manuel Astaburuaga (Tecnología)  
 **Fecha:** Enero 2026  
 **Versión:** 1.0
